@@ -358,7 +358,18 @@ body.active { overflow: hidden; }
 /*-----------------------------------*\
   #HERO
 \*-----------------------------------*/
+.hero {
+  max-width: 150px;
+  margin-inline: auto;
+  margin-block-end: 20px;
+}
 
+.hero .wrapper {
+  position: relative;
+  text-align: left;
+  height: 1.2em;
+  margin-block: 10px 25px;
+}
 
 
 

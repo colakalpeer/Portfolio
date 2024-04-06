@@ -371,6 +371,22 @@ body.active { overflow: hidden; }
   margin-block: 10px 25px;
 }
 
+.hero .wrapper .strong {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  font-weight: inherit;
+}
+
+.hero-text {
+  font-size: var(--fs-10);
+  font-weight: var(--fw-300);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
 
 
 

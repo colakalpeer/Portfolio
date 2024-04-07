@@ -6,7 +6,7 @@ This is a photographer portfolio html template, made by codewithsadee.
 
 #---------- HEADER ----------#
 
-alt = Alper home
+alt = Richard home
 
 aria-label = open menu
 alt = menu icon
@@ -27,7 +27,7 @@ Login
 
 My Address
 
-06 Ankara
+3287 Indiana Avenue, Waialua, Hawaii
 
 Urgent issue? call us at
 808-561-3846
@@ -36,12 +36,14 @@ Urgent issue? call us at
 
 #---------- HERO ----------#
 
-Alper Çolak
+Richard Ryan
 
-Web Developer
+Photographer
+Shutterbug
+Cameraman
+Pacific Portraits
 
-
-
+15+ Years Of Experience
 
 
 
@@ -97,17 +99,17 @@ Health & Wellnes.
 #---------- CATEGORY ----------#
 
 Hi. I’m
-Alper Çolak
+Richard Ryan
 
-
-A full-stack 
-Web Developer
-
+A passionate
+photograher
+who are working in this field for 
+last 10 years. 
 I’m ready to give you my best.
 
 alt = signature
 
-alt = Alper Çolak
+alt = Riachard Ryan
 
 
 
@@ -137,7 +139,21 @@ Amet consectetur adipisicing elit
 
 My Recent Work.
 
+Shoe Promo
+Product
 
+aria-label = See more
+
+<svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none"><path d="M0 10H41" stroke="black" stroke-width="2" /><path d="M33 1L41.9 10.2727L33 19" stroke="black" stroke-width="2" /></svg>
+
+Wedding Shot
+Wedding
+
+Fashion Show
+Fashion, Model
+
+Jumbo Barger
+Food
 
 
 
@@ -155,7 +171,7 @@ alt = photography
 
 #---------- FOOTER ----------#
 
-alt = Alper home
+alt = Richard home
 
 Fa.
 Insta.

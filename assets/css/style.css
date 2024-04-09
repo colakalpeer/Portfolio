@@ -854,6 +854,39 @@ body.active { overflow: hidden; }
   z-index: -1;
 }
 
+.footer-bg::before {
+  inset: 0;
+  background-image: var(--gradient-2);
+}
+
+.footer-bg .img-cover { object-position: top; }
+
+.footer-btoom .logo {
+  margin-inline: auto;
+  max-width: max-content;
+  margin-block-end: 20px;
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+.social-link { font-weight: var(--fw-500); }
+
+.social-link:is(:hover, :focus-visible) { text-decoration: underline;}
+
+.copyright,
+.social-list { padding-block-end: 15px; }
+
+.copyright {
+  font-weight: var(--fw-300);
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
 
 
 

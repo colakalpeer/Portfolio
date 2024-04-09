@@ -820,6 +820,41 @@ body.active { overflow: hidden; }
   #FOOTER
 \*-----------------------------------*/
 
+.footer { position: relative;}
+
+.footer .abs-img { display: none;}
+
+.footer-top {
+  padding-block: 100px 140px;
+  border-block-start: 1px solid var(--white_a9);
+  text-align: center;
+  z-index: 1;
+}
+
+.footer-top .section-title {
+  margin-block: 20px 90px;
+  line-height: normal;
+}
+
+.footer .btn-icon {
+  width: 60px;
+  height: 60px;
+  margin-inline: auto;
+  --hover-bg-color: var(--radical-red);
+}
+
+.footer .btn-icon img { width: 30px;}
+
+.footer-bg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60%;
+  z-index: -1;
+}
+
+
 
 
 

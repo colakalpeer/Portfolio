@@ -1029,3 +1029,28 @@ body.active { overflow: hidden; }
      column-gap: 30px;
    }
  
+
+
+   /**
+   * FOOTER
+   */
+
+
+   .footer-bottom { padding-block-end: 40px; }
+
+   .footer-bottom .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+   }
+
+
+   .footer-bottom .log { margin: 0; }
+
+   .copyright,
+   .social-list { padding-block-end: 0; }
+
+   .social-list {
+    order: 1;
+    justify-content: flex-end;
+   }

@@ -923,9 +923,52 @@ body.active { overflow: hidden; }
 
 
 /*-----------------------------------*\
-  #CUSTOM CURSOR
+  #MEDIA QUERIES
 \*-----------------------------------*/
 
-.cursor { display: none; }
+/**
+ * responsive for large than 575px screen
+ */
+
+ @media (min-width: 575px) {
+
+  /**
+   * CUSTOM PROPERTY
+   */
+
+  :root {
+
+    /**
+     * spacing
+     */
+
+    --section-padding: 80px;
+
+  }
 
 
+
+  /**
+   * REUSED STYLE
+   */
+
+  .container {
+    max-width: 540px;
+    width: 100%;
+    margin-inline: auto;
+  }
+
+  :is(.header, .gallery, .category, .portfolio) .container { max-width: unset; }
+
+
+
+  /**
+   * HEADER
+   */
+
+  .navbar {
+    max-width: 500px;
+    right: -500px;
+  }
+
+  .navbar.active { transform: translateX(-500px); }

@@ -1009,4 +1009,23 @@ body.active { overflow: hidden; }
     opacity: 1;
   }
 
- }
+ }  
+
+
+   /**
+   * CATEGORY
+   */
+
+   .category-item { max-width: 235px; }
+
+
+
+   /**
+    * PORTFOLIO
+    */
+ 
+   .portfolio-list {
+     display: flex;
+     column-gap: 30px;
+   }
+ 

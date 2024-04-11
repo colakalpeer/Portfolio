@@ -1111,3 +1111,61 @@ body.active { overflow: hidden; }
 
   .service-card .card-subtitle { margin-block-end: 15px; }
 
+/**
+ * responsive for large than 992px screen
+ */
+
+ @media (min-width: 992px) {
+
+  /**
+   * CUSTOM PROPERTY
+   */
+
+  :root {
+
+    /**
+     * typography
+     */
+
+    --fs-1: 8rem;
+
+  }
+
+
+
+  /**
+   * REUSED STYLE
+   */
+
+  .section { position: relative; }
+
+  .container { max-width: 960px; }
+
+  .shape {
+    display: block;
+    position: absolute;
+  }
+
+
+
+  /**
+   * HEADER
+   */
+
+  .header { padding-block: 30px; }
+
+  .navbar {
+    padding: 40px;
+    padding-block-end: 10px;
+  }
+
+  .navbar-link { --fs-7: 2.4rem; }
+
+  .navbar-title { --fs-8: 2.2rem; }
+
+  .navbar-text {
+    font-size: 1.9rem;
+    margin-block-end: 30px;
+  }
+
+}

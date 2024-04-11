@@ -1085,3 +1085,29 @@ body.active { overflow: hidden; }
   .container { max-width: 720px; }
 
 }
+
+
+
+/**
+   * ABOUT
+   */
+
+   .about-banner {
+    max-width: 500px;
+    margin-inline: auto;
+  }
+
+
+
+  /**
+   * SERVICE
+   */
+
+  .service-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .service-card .card-subtitle { margin-block-end: 15px; }
+

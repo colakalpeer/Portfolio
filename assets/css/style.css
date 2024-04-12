@@ -1462,3 +1462,60 @@ body.active {
     right: 15%;
     bottom: 10%;
   }
+
+
+  /**
+   * CUSTOM CURSOR
+   */
+
+   .cursor {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 75px;
+    height: 75px;
+    background-color: var(--white);
+    mix-blend-mode: exclusion;
+    border-radius: var(--radius-circle);
+    transform: translate(-50%, -50%) scale(0.35);
+    transition: transform 0.35s;
+    pointer-events: none;
+    z-index: 6;
+  }
+
+  .cursor.hovered { transform: translate(-50%, -50%) scale(1.2); }
+
+  .cursor.disabled { transform: translate(-50%, -50%) scale(0); }
+
+}
+
+
+
+
+
+/**
+ * responsive for large than 1200px screen
+ */
+
+@media (min-width: 1200px) {
+
+  /**
+   * CUSTOM PROPERTY
+   */
+
+  :root {
+
+    /**
+     * typography
+     */
+
+    --fs-1: 10rem;
+    --fs-2: 9rem;
+    --fs-3: 6.8rem;
+    --fs-4: 3.6rem;
+    --fs-6: 2.8rem;
+
+  }
+
+}

@@ -1413,12 +1413,22 @@ body.active {
    * PORTFOLIO
    */
 
-  .portfolio {
-    padding-block-end: 150px;
-    margin-block-end: 60px;
-  }
+   .portfolio-list { column-gap: 90px; }
 
-  .portfolio .shape {
-    bottom: 0;
-    right: 0;
-  }
+   .portfolio-card { margin-block-end: 100px; }
+ 
+   .portfolio-card .card-content { padding-inline: 50px; }
+ 
+   .portfolio-card .btn-icon {
+     width: 60px;
+     height: 60px;
+     top: auto;
+     bottom: 45px;
+     right: 50px;
+     opacity: 0;
+     transition: var(--transition-2);
+   }
+ 
+   .portfolio-card .btn-icon svg { width: 25px; }
+ 
+   .portfolio-card:is(:hover, :focus-within) .btn-icon { opacity: 1; }

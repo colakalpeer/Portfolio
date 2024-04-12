@@ -1516,3 +1516,48 @@ body.active {
   }
 
 }
+
+
+/**
+   * REUSED STYLE
+   */
+
+   .container { max-width: 1140px; }
+
+
+
+   /**
+    * HEADER
+    */
+ 
+   .header .container { padding-inline: 35px; }
+
+   
+   /**
+   * HERO
+   */
+
+   .hero { padding-block: 170px 150px; }
+
+  .hero .container { max-width: 1250px; }
+
+  .hero .wrapper {
+    --fs-2: 10rem;
+    margin-block: -10px 15px;
+  }
+
+  .hero .wrapper .strong { left: 40%; }
+
+  .hero-text {
+    --fs-10: 2rem;
+    font-weight: var(--fw-400);
+    letter-spacing: 8px;
+  }
+
+  .hero-banner { max-width: 290px; }
+
+  .hero .shape {
+    display: block;
+    top: 60%;
+    left: 0;
+  }

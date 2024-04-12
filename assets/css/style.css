@@ -1413,22 +1413,52 @@ body.active {
    * PORTFOLIO
    */
 
-   .portfolio-list { column-gap: 90px; }
+  .portfolio {
+    padding-block-end: 150px;
+    margin-block-end: 60px;
+  }
 
-   .portfolio-card { margin-block-end: 100px; }
- 
-   .portfolio-card .card-content { padding-inline: 50px; }
- 
-   .portfolio-card .btn-icon {
-     width: 60px;
-     height: 60px;
-     top: auto;
-     bottom: 45px;
-     right: 50px;
-     opacity: 0;
-     transition: var(--transition-2);
-   }
- 
-   .portfolio-card .btn-icon svg { width: 25px; }
- 
-   .portfolio-card:is(:hover, :focus-within) .btn-icon { opacity: 1; }
+  .portfolio .shape {
+    bottom: 0;
+    right: 0;
+  }
+
+  /**
+   * FOOTER
+   */
+
+   .footer .shape {
+    top: 25%;
+    left: 0;
+  }
+
+  .footer .abs-img {
+    display: block;
+    position: absolute;
+    max-width: max-content;
+    z-index: -1;
+  }
+
+  .footer .abs-img-1 {
+    width: 9%;
+    top: 12%;
+    left: 10%;
+  }
+
+  .footer .abs-img-2 {
+    width: 14%;
+    top: 15%;
+    right: 0;
+  }
+
+  .footer .abs-img-3 {
+    width: 16%;
+    left: 0;
+    bottom: 10%;
+  }
+
+  .footer .abs-img-4 {
+    width: 9%;
+    right: 15%;
+    bottom: 10%;
+  }
